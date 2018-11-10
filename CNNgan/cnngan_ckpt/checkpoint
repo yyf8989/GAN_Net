@@ -1,0 +1,2 @@
+model_checkpoint_path: "E:\\Pycharmprojects\\GAN_again\\CNNgan\\cnngan_ckpt\\1_ckpt"
+all_model_checkpoint_paths: "E:\\Pycharmprojects\\GAN_again\\CNNgan\\cnngan_ckpt\\1_ckpt"
