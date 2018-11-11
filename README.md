@@ -1,1 +1,2 @@
-# GAN_again
+# GAN_Net instruction
+
