@@ -25,7 +25,7 @@ import os
 import matplotlib.pyplot as plt
 
 mnist = input_data.read_data_sets('MNIST_data/', one_hot=True)
-save_path = r"E:\Pycharmprojects\GAN_again\CNNgan\cnngan_2_ckpt\1_ckpt"
+save_path = r"E:\Pycharmprojects\GAN_Net\CNN_GAN\cnngan_2_ckpt\1_ckpt"
 
 
 class Dnet:
@@ -179,6 +179,6 @@ if __name__ == '__main__':
                 plt.imshow(train_image)
                 plt.title('train image')
                 plt.pause(0.1)
-                plt.savefig('E:\Pycharmprojects\GAN_again\CNNgan\cnngan_2_image\{}.png'.format(str(i).zfill(3)))
+                plt.savefig('E:\Pycharmprojects\GAN_Net\CNN_GAN\cnngan_image\{}.png'.format(str(i).zfill(3)))
                 save.save(sess, save_path=save_path)
         plt.ioff()
